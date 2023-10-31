@@ -8,6 +8,12 @@
   <link href="style.css" rel="stylesheet" type="text/css">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="author" content="Mirnes Glamočić">
+  <!-- CSS -->
+  <style>
+    .modal-footer a {color:#EEE;}
+    .modal-footer:hover a {color:#DDD;text-decoration:none;}
+    .modal-footer a:active {color:#CCC;}
+  </style>
   <!-- jQuery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
   <!--jQuery validate plugin -->
@@ -40,7 +46,7 @@ include 'form_process.php';
 <script src="validate_me.js"></script>
       </div><!-- end .modal-body -->
       <div class="modal-footer">
-        <h3>Developed by Mirnes Glamočić</h3>
+        <h3>Developed by <a href="https://mirnesglamocic.com" target="_blank">Mirnes Glamočić</a></h3>
       </div><!-- end .modal-footer -->
   </div><!-- end .modal-body -->
   <div id="overlay"></div><!-- end #overlay -->
