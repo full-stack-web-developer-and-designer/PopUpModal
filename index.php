@@ -15,7 +15,7 @@
   <script defer src="script.js"></script>
 </head>
 <body>
-  <button data-modal-target="#modal" class="button">Click hiere</button>
+  <button data-modal-target="#modal" class="button">Click here</button>
   <div class="modal" id="modal">
       <div class="modal-header">
         <h2>Contact me</h2>
